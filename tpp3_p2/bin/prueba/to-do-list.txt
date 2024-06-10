@@ -1,0 +1,7 @@
+//* TO - DO LIST *\\
+
+ventanas
+- agarrar los casos null del login
+- debemos tratar el login y el register 
+- persistir informacion
+- escribir TODO el trabajo practico

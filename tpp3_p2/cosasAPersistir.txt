@@ -1,0 +1,23 @@
+PARAMETROS INICIALES:
+-cantidad de Clientes
+-cantidad maxima de solicitudes de viaje por cliente -> POR cliente, debe ser un numero aleatorio entre 1 y  esta cantidad
+-cantidad de choferes de cada tipo
+-cantidad maxima de viajes por chofer
+-flota de vehiculos
+-cantidad de unidades de cada tipo de vehiculo
+-TODO LO DEL SISTEMA.
+
+
+
+
+
+
+
+
+
+
+
+OTRAS COSAS PARA HACER PENDIENTES:
+-settear la cantidad aleatoria de viajes a tomar por cliente.
+-arreglar los pedidos aleatorios.
+

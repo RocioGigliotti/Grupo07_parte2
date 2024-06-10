@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21" class="java.beans.XMLDecoder">
+ <object class="persistencia.ConfiguracionDTO">
+  <void property="cantChoferes">
+   <int>3</int>
+  </void>
+  <void property="cantClientes">
+   <int>2</int>
+  </void>
+  <void property="cantViajesChoferes">
+   <int>2</int>
+  </void>
+  <void property="cantViajesClientes">
+   <int>2</int>
+  </void>
+  <void property="sistemaDTO">
+   <object class="persistencia.SistemaDTO">
+    <void property="choferes">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="persistencia.ChoferDTO">
+        <void property="dni">
+         <string>43797177</string>
+        </void>
+        <void property="nombre">
+         <string>Chofer 1</string>
+        </void>
+        <void property="tipo">
+         <string>CONTRATADO</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="persistencia.ChoferDTO">
+        <void property="dni">
+         <string>44690191</string>
+        </void>
+        <void property="nombre">
+         <string>Chofer 2</string>
+        </void>
+        <void property="tipo">
+         <string>CONTRATADO</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="persistencia.ChoferDTO">
+        <void property="dni">
+         <string>44783681</string>
+        </void>
+        <void property="nombre">
+         <string>Chofer 3</string>
+        </void>
+        <void property="tipo">
+         <string>CONTRATADO</string>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="clientes">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="persistencia.ClienteDTO">
+        <void property="nombre">
+         <string>Guille</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="persistencia.ClienteDTO">
+        <void property="nombre">
+         <string>Ivonne</string>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="usuarios">
+     <object class="java.util.HashMap">
+      <void method="put">
+       <string>hola1</string>
+       <string>hola1</string>
+      </void>
+      <void method="put">
+       <string>hola</string>
+       <string>hola</string>
+      </void>
+     </object>
+    </void>
+    <void property="vehiculos">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="persistencia.MotoDTO"/>
+      </void>
+      <void method="add">
+       <object class="persistencia.MotoDTO"/>
+      </void>
+      <void method="add">
+       <object class="persistencia.CombiDTO"/>
+      </void>
+      <void method="add">
+       <object class="persistencia.CombiDTO"/>
+      </void>
+      <void method="add">
+       <object class="persistencia.AutomovilDTO"/>
+      </void>
+      <void method="add">
+       <object class="persistencia.AutomovilDTO"/>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
